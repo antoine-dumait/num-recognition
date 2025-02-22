@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    --cell-size: 1.5em;
+}
+
+*{
+    color: white
+}
+
+#grid{
+    display: grid;
+    user-select: none;
+    grid-template-columns: repeat(28, var(--cell-size));
+    grid-auto-rows: var(--cell-size);
+}
+
+.cell{
+    /* width: 20px; */
+    /* height: 20px; */
+}
